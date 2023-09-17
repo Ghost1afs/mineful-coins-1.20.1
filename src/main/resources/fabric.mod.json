@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mineful_coins",
+	"version": "${version}",
+	"name": "Mineful Coins",
+	"description": "This is a simple coin mod for Mineful, our minecraft server!",
+	"authors": [
+		"Ghost_afs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mineful_coins/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ghost.mineful_coins.Mineful_coins"
+		],
+		"client": [
+			"net.ghost.mineful_coins.Mineful_coins_Client"
+		],
+		"fabric-datagen": [
+			"net.ghost.mineful_coins.Mineful_coinsModDataGenerator"
+		]
+	},
+	"mixins": [
+		"mineful_coins.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
