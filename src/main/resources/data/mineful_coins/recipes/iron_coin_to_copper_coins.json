@@ -1,0 +1,13 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "category" : "misc",
+  "ingredients" :[
+    {
+      "item": "mineful_coins:iron_coin"
+    }
+  ],
+  "result": {
+    "item": "mineful_coins:copper_coin",
+    "count": 4
+  }
+}

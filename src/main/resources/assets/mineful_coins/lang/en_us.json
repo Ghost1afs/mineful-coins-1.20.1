@@ -1,0 +1,11 @@
+{
+  "item.mineful_coins.gold_coin" : "Gold Coin",
+  "item.mineful_coins.iron_coin" : "Iron Coin",
+  "item.mineful_coins.copper_coin" : "Copper Coin",
+  "item.mineful_coins.diamond_coin" : "Diamond Coin",
+
+
+  "itemgroup.gold_coin" : "Economy"
+
+
+}

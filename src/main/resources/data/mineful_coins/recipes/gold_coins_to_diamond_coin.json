@@ -1,0 +1,16 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#" : {
+      "item": "mineful_coins:gold_coin"
+    }
+  },
+  "result": {
+    "item": "mineful_coins:diamond_coin"
+  }
+}

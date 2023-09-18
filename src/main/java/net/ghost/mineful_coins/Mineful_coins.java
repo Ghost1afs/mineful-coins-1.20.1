@@ -2,6 +2,8 @@ package net.ghost.mineful_coins;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.ghost.mineful_coins.item.ModItemGroups;
+import net.ghost.mineful_coins.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,7 @@ public class Mineful_coins implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }

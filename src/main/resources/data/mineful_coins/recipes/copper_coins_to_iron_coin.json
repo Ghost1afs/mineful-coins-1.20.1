@@ -1,0 +1,16 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#" : {
+      "item": "mineful_coins:copper_coin"
+          }
+    },
+  "result": {
+    "item": "mineful_coins:iron_coin"
+  }
+}
